@@ -1,0 +1,17 @@
+{
+  "name": "faux-mysql-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-ts": "tsc",
+    "watch-ts": "tsc -w", 
+    "serve": "node dist/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^11.13.4"
+  }
+}
